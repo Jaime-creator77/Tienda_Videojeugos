@@ -82,3 +82,4 @@ public class GestorDescuentos {
         System.out.println("✔ Todos los descuentos han sido eliminados.");
     }
 }
+// Actualizado para sistema de descuentos v2
