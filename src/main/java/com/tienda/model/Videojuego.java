@@ -54,8 +54,9 @@ public class Videojuego extends Item implements Vendible {
      */
     @Override
     public double calcularPrecioFinal() {
+        // FEATURE: agrega descuento fidelidad 5%
         double conIva = getPrecio() * 1.04;
-        return conIva * (1 - descuento);
+        return conIva * (1 - descuento) * 0.95;
     }
 
     /**
