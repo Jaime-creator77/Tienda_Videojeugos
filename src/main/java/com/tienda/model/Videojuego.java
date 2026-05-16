@@ -54,7 +54,8 @@ public class Videojuego extends Item implements Vendible {
      */
     @Override
     public double calcularPrecioFinal() {
-        double conIva = getPrecio() * 1.04;
+        // HOTFIX: corrige IVA de 4% a 10% por normativa
+        double conIva = getPrecio() * 1.10;
         return conIva * (1 - descuento);
     }
 
