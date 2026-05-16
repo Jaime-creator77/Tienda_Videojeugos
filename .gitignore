@@ -1,0 +1,51 @@
+# ── Compilados Java ──────────────────────────────────────
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# ── Carpetas de salida de compilación ────────────────────
+bin/
+out/
+build/
+target/
+
+# ── IntelliJ IDEA ─────────────────────────────────────────
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ── Eclipse ───────────────────────────────────────────────
+.project
+.classpath
+.settings/
+.metadata/
+
+# ── VS Code ───────────────────────────────────────────────
+.vscode/
+
+# ── NetBeans ──────────────────────────────────────────────
+nbproject/
+nb-configuration.xml
+
+# ── Maven / Gradle ────────────────────────────────────────
+.mvn/
+.gradle/
+gradlew
+gradlew.bat
+gradle/
+
+# ── Sistema operativo ────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# ── Archivos temporales ───────────────────────────────────
+*.tmp
+*.bak
+*.orig
+*.log
