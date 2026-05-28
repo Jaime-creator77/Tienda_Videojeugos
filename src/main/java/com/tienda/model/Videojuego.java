@@ -8,7 +8,7 @@ package com.tienda.model;
  * y cualquier descuento temporal que se haya aplicado.</p>
  *
  * <ul>
- *   <li>IVA aplicado: <b>4%</b> (tipo reducido cultural)</li>
+ *   <li>IVA aplicado: <b>10%</b> (tipo reducido cultural)</li>
  *   <li>Descuentos acumulables con el precio base</li>
  * </ul>
  *
