@@ -35,6 +35,7 @@ public class StockAgotadoException extends Exception {
      * @param nombreItem         nombre del ítem con stock insuficiente
      * @param cantidadSolicitada unidades que se intentaron retirar
      * @param stockDisponible    unidades realmente disponibles en inventario
+     * @throws IllegalArgumentException si {@code cantidadSolicitada} es menor o igual a cero
      */
     public StockAgotadoException(String nombreItem, int cantidadSolicitada, int stockDisponible) {
         super(String.format(
