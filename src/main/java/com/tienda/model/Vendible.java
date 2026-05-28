@@ -19,6 +19,7 @@ public interface Vendible {
      * donde {@code 0.10} equivale al 10% de descuento.</p>
      *
      * @param porcentaje porcentaje de descuento a aplicar (entre 0.0 y 1.0)
+     * @throws IllegalArgumentException si el porcentaje es negativo o mayor que 1.0
      */
     void aplicarDescuento(double porcentaje);
 
