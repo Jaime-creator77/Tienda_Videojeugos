@@ -39,6 +39,7 @@ public class GestorDescuentos {
      * Los ítems no vendibles son ignorados silenciosamente.</p>
      *
      * @param porcentaje descuento global a aplicar entre 0.0 y 1.0
+     * @throws IllegalArgumentException si el porcentaje es negativo o mayor que 1.0
      */
     public void aplicarDescuentoGlobal(double porcentaje) {
         List<Item> items = inventario.getTodosLosItems();
