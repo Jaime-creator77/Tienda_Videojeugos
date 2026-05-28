@@ -1,11 +1,11 @@
-# 🎮 Gestor de Inventario — Tienda de Videojuegos
+#  Gestor de Inventario — Tienda de Videojuegos
 
 Aplicación de consola en Java para gestionar el inventario de una tienda de videojuegos.
 Permite añadir productos (videojuegos y consolas), vender unidades, aplicar descuentos y buscar en el catálogo.
 
 ---
 
-## 📋 Descripción
+##  Descripción
 
 El proyecto implementa un sistema de gestión de inventario con las siguientes características:
 
@@ -16,7 +16,7 @@ El proyecto implementa un sistema de gestión de inventario con las siguientes c
 
 ---
 
-## ⚙️ Compilación y Ejecución
+##  Compilación y Ejecución
 
 ### Requisitos
 
@@ -45,7 +45,7 @@ javadoc -d docs -sourcepath src/main/java -subpackages com.tienda \
 
 ---
 
-## 📁 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 tienda-videojuegos/
@@ -72,20 +72,20 @@ tienda-videojuegos/
 
 ---
 
-## 📖 Javadoc
+##  Javadoc
 
 La documentación completa del proyecto está disponible en GitHub Pages:
 
-🔗 **[Ver Javadoc en línea](https://TU_USUARIO.github.io/tienda-videojuegos/)**
+ **[Ver Javadoc en línea](https://Jaime-creator77.github.io/Tienda_Videojeugos/)**
 
 ---
 
-## 🏷️ Versión
+##  Versión
 
 `v1.0.0` — Versión de entrega final.
 
 ---
 
-## 👤 Autor
+##  Autor
 
-Desarrollado como proyecto de mejora de la asignatura de Programación.
+Desarrollado como proyecto de mejora de la asignatura de Entornos de Desarrollo.
