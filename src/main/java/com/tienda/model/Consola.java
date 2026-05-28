@@ -31,6 +31,7 @@ public class Consola extends Item implements Vendible {
      * @param stock      unidades disponibles en almacén
      * @param fabricante empresa fabricante de la consola
      * @param generacion generación a la que pertenece la consola
+     * @throws IllegalArgumentException si el precio es negativo o el stock es menor que cero
      */
     public Consola(int id, String nombre, double precio, int stock,
                    String fabricante, String generacion) {
