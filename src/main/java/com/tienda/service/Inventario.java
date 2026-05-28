@@ -44,6 +44,7 @@ public class Inventario {
      * y se informa por consola.</p>
      *
      * @param item ítem a añadir; no puede ser {@code null}
+     * @throws IllegalArgumentException si el ítem es {@code null}
      */
     public void añadirItem(Item item) {
         if (item == null) return;
@@ -54,7 +55,7 @@ public class Inventario {
             items.add(item);
         }
     }
-
+	
     /**
      * Elimina un ítem del inventario por su identificador.
      *
